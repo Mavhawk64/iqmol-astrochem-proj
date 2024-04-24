@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O   -0.7250848    2.5401885    3.5271955
+  O   -0.1005362    3.2319043    2.5966860
+  H    0.3788121    2.5534217    2.0556197
+  H   -0.1619443    2.6390832    4.3371121
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  RevPBE
+   SCF_CONVERGENCE  =  8
+$end
+

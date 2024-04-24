@@ -1,0 +1,17 @@
+$molecule
+0 1
+  O   -2.3918617    1.5842959    0.0807214
+  O   -1.4208449    1.5752991    0.9703595
+  H   -3.1999218    1.8489102    0.5905001
+  H   -0.9377166    2.4289738    0.8265444
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Frequency
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+   SYMMETRY_IGNORE  =  1
+$end
+

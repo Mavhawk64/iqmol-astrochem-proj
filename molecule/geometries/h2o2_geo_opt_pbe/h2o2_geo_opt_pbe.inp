@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O    0.1690624    1.2756854    0.0000000
+  O    0.8245303    2.4169594    0.0000000
+  H   -0.7861349    1.5375618    0.0000000
+  H    1.7797237    2.1550736    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  PBE
+   SCF_CONVERGENCE  =  8
+$end
+

@@ -1,0 +1,17 @@
+$molecule
+0 1
+  O   -3.2066805    2.5458380    0.0000000
+  O   -1.9530866    2.1450388   -0.0000000
+  H   -3.7354852    1.7083674   -0.0000000
+  H   -1.4243013    2.9825216    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  PW92
+   SCF_CONVERGENCE  =  8
+   SYMMETRY_IGNORE  =  1
+$end
+

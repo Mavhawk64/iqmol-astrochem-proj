@@ -1,7 +1,7 @@
 import pyautogui as pg
 
 functionals = []
-with open("functionals.txt", "r") as f:
+with open("C:/Users/mavbe/Desktop/Coding Folder/repos/iqmol-astrochem-proj/functionals.txt", "r") as f:
     functionals = f.readlines()
     f.close()
 
@@ -19,7 +19,7 @@ correlation = (647, 218) # dropdown
 new_job = (580, 106) # button
 
 if __name__ == "__main__":
-    for i in range(len(functionals)):
+    for i in range(7,len(functionals)):
         # click on the method and type the functional
         pg.click(method)
         # ctrl+a & delete

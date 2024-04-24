@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O   -2.4112872    1.7623677    0.0000000
+  O   -1.4471091    2.6581954    0.0000000
+  H   -3.2460046    2.2955023    0.0000000
+  H   -0.6123899    2.1250702    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  wB97XD
+   SCF_CONVERGENCE  =  8
+$end
+

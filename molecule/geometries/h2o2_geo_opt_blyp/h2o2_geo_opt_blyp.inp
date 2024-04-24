@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O   -2.1187042    1.4365583   -0.0000000
+  O   -1.0522470    2.2078100    0.0000000
+  H   -2.8820032    2.0677115    0.0000000
+  H   -0.2889742    1.5766258    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  BLYP
+   SCF_CONVERGENCE  =  8
+$end
+

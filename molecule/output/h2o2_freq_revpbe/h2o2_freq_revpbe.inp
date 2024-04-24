@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O   -1.3108384    0.7595260    0.0000000
+  O   -0.7293600    1.9402229    0.0000000
+  H   -2.2807721    0.9600606    0.0000000
+  H    0.2405758    1.7397045    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Frequency
+   METHOD  =  RevPBE
+   SCF_CONVERGENCE  =  8
+$end
+

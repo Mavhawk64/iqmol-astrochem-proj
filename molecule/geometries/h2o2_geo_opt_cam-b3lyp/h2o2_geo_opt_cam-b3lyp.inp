@@ -1,0 +1,16 @@
+$molecule
+0 1
+  O   -3.3766163    1.6585271    0.0000000
+  O   -2.4450999    2.5882674    0.0000000
+  H   -4.2298630    2.1614695    0.0000000
+  H   -1.5918432    2.0853458    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  CAm-B3LYP
+   SCF_CONVERGENCE  =  8
+$end
+

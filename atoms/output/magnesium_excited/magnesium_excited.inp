@@ -1,0 +1,128 @@
+$molecule
+0 3
+  Mg   -3.0711550    1.5890820    0.0000000
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  B3LYP
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  PBE0
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  PBE
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  BLYP
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  TPSS
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  CAMB3LYP
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  wB97XD
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  M06-2X
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  RevPBE
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   METHOD  =  wB97XV
+$end
+

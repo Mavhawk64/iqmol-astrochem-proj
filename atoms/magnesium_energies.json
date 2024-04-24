@@ -1,0 +1,52 @@
+{
+    "B3LYP": {
+        "ground_state": "-200.07797818",
+        "excited_state": "-199.97525510",
+        "difference": "0.10272308000000407"
+    },
+    "PBE0": {
+        "ground_state": "-199.94790937",
+        "excited_state": "-199.85460918",
+        "difference": "0.09330018999997947"
+    },
+    "PBE": {
+        "ground_state": "-199.92904462",
+        "excited_state": "-199.83274162",
+        "difference": "0.09630300000000602"
+    },
+    "BLYP": {
+        "ground_state": "-200.06369804",
+        "excited_state": "-199.95908476",
+        "difference": "0.10461327999999526"
+    },
+    "TPSS": {
+        "ground_state": "-200.06221889",
+        "excited_state": "-199.96670674",
+        "difference": "0.09551214999999047"
+    },
+    "CAM-B3LYP": {
+        "ground_state": "-200.05474842",
+        "excited_state": "-199.95170655",
+        "difference": "0.10304186999999843"
+    },
+    "Omega-B97X-D": {
+        "ground_state": "-200.04086669",
+        "excited_state": "-199.94800084",
+        "difference": "0.09286585000000969"
+    },
+    "M06-2X": {
+        "ground_state": "-200.03502198",
+        "excited_state": "-199.92278201",
+        "difference": "0.11223997000001873"
+    },
+    "revPBE": {
+        "ground_state": "-200.01040514",
+        "excited_state": "-199.91604727",
+        "difference": "0.09435786999998186"
+    },
+    "Omega-B97X-V": {
+        "ground_state": "-200.01033423",
+        "excited_state": "-199.91239089",
+        "difference": "0.09794334000000049"
+    }
+}

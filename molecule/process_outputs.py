@@ -21,8 +21,11 @@ for i, path in enumerate(paths):
     for line in lines:
         if "Frequency:" in line:
             frequencies.extend(line.split()[1:])
+        # Zero point vibrational energy:       16.950 kcal/mol
+        if "Zero point vibrational energy" in line:
+            energy = str(float(line.split()[4]))
     
-    output[functionals[i]] = {"frequencies": frequencies}
+    output[functionals[i]] = {"frequencies": frequencies, "vibrational_energy": energy}
 
 # output to json
 with open(f"{pwd}/{molecule}_frequencies.json", "w") as f:
